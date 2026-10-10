@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hero",
+    "type": "hero",
+    "enabled": true,
+    "settings": {},
+    "texts": {
+      "de": {
+        "title": "Deine digitale Visitenkarte",
+        "text": "Ein Link, ein QR-Code - alle deine Kontaktdaten, Social-Profile und mehr auf einer Seite, die zu dir passt.",
+        "button_label": "Kostenlos starten",
+        "button_url": "/register"
+      },
+      "en": {
+        "title": "Your digital business card",
+        "text": "One link, one QR code - all your contact details, social profiles and more on a page that looks like you.",
+        "button_label": "Start for free",
+        "button_url": "/register"
+      }
+    }
+  },
+  {
+    "id": "features",
+    "type": "text",
+    "enabled": true,
+    "settings": {},
+    "texts": {
+      "de": {
+        "heading": "Alles, was eine Visitenkarte heute braucht",
+        "body": "<ol><li><h3>QR-Code &amp; Link</h3><p>Sofort teilbar, ganz ohne App - einscannen oder den Link verschicken.</p></li><li><h3>Mehrere Designs</h3><p>Vom klassischen bis zum verspielten Look - passend zur eigenen Marke.</p></li><li><h3>Alle Kontaktwege an einem Ort</h3><p>Telefon, E-Mail, WhatsApp und Social-Profile - ein Klick genügt.</p></li><li><h3>Klicks und Aufrufe im Blick</h3><p>Sehen, wie oft die Karte angesehen wird und welcher Kontaktweg genutzt wird.</p></li></ol>"
+      },
+      "en": {
+        "heading": "Everything a business card needs today",
+        "body": "<ol><li><h3>QR code &amp; link</h3><p>Shareable instantly, no app needed - scan it or send the link.</p></li><li><h3>Several designs</h3><p>From classic to playful - whichever fits the brand.</p></li><li><h3>Every contact method in one place</h3><p>Phone, e-mail, WhatsApp and social profiles - one tap away.</p></li><li><h3>Views and clicks at a glance</h3><p>See how often the card is viewed and which contact method gets used.</p></li></ol>"
+      }
+    }
+  },
+  {
+    "id": "providers",
+    "type": "providers",
+    "enabled": true,
+    "settings": {
+      "count": 6
+    },
+    "texts": {
+      "de": {
+        "heading": "Schon dabei"
+      },
+      "en": {
+        "heading": "Already on board"
+      }
+    }
+  },
+  {
+    "id": "cta",
+    "type": "text",
+    "enabled": true,
+    "settings": {},
+    "texts": {
+      "de": {
+        "heading": "Kostenlos starten, bei Bedarf upgraden",
+        "body": "<p>Die Grundfunktionen sind dauerhaft kostenlos. Mit Pro kommen eigenes Design, Galerie, Terminbuchung, vCard-Download und Statistiken dazu.</p>",
+        "button_label": "Preise ansehen",
+        "button_url": "/subscriptions"
+      },
+      "en": {
+        "heading": "Start for free, upgrade when you need to",
+        "body": "<p>The core features are free for good. Pro adds custom design, a gallery, booking requests, vCard download and statistics.</p>",
+        "button_label": "See pricing",
+        "button_url": "/subscriptions"
+      }
+    }
+  }
+]
