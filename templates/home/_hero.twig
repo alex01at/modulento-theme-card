@@ -1,6 +1,6 @@
 {# Receives block: texts (title, text, button_label, button_url). No catalogue search here -
    the card extension has no offer type, so there is nothing to search for. #}
-<section class="hero">
+<section data-home-block="{{ block.id }}" class="hero">
     <div class="container narrow">
         <span class="hero-badge">{{ trans('theme.hero.badge') }}</span>
         <h1 data-field="title">{{ block.texts.title }}</h1>
