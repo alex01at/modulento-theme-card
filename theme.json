@@ -1,6 +1,6 @@
 {
     "id": "card",
     "name": "Card",
-    "version": "0.1.1",
-    "requires": "0.51.0"
+    "version": "0.1.2",
+    "requires": "0.61.0"
 }

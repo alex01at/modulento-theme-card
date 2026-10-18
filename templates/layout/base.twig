@@ -76,7 +76,9 @@
         </nav>
 
         <div class="header-actions">
-            {% for link in nav_links() %}
+            {# Catalogue/requests links, whatever an extension added, and the operator's own
+               entries - one list, in the order and under the names set at Administration -> Menu. #}
+            {% for link in main_menu_links() %}
                 <a class="pill-link" href="{{ link.url }}">{{ link.title }}</a>
             {% endfor %}
             {% if account %}
